@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Common Ground — share a message or request our curated coping toolkits email. Zero judgement, privacy respected.">
+  <title>Contact Us | Common Ground</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Common Ground home">
+        <span class="logo-mark" aria-hidden="true">CG</span>
+        <span class="logo-text">
+          <strong>Common Ground</strong>
+          <span class="tagline">Judgement-free. Shared stories. Practical tools.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="toolkits.html">Coping Toolkits</a></li>
+          <li><a href="urgent-help.html">Urgent Help</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact us</h1>
+        <p class="page-lead">Whether you have a question, feedback, or want to request our curated toolkits email — we are here. Zero judgement. Your privacy matters.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message or request</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="toolkit-email" name="toolkit-email">
+            <label for="toolkit-email">Please send me the curated Personal Coping Toolkits email</label>
+          </div>
+          <p class="form-disclaimer">Emails are handled with care, zero judgement, and respect for your privacy. We will never share your details. This form is for non-urgent contact only — if you need immediate help, please use our <a href="urgent-help.html">Urgent Help</a> page.</p>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Common Ground</strong>
+        <p>Judgement-free. Shared stories. Practical tools. Equal ground.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="toolkits.html">Coping Toolkits</a>
+        <a href="urgent-help.html">Urgent Help</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-note">Common Ground is a peer-support resource, not an emergency service. If you are in crisis, please use the <a href="urgent-help.html">Urgent Help</a> page.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
