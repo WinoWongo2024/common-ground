@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get involved with Common Ground — share your story, join the newsletter, or watch for volunteer opportunities.">
+  <title>Get Involved | Common Ground</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Common Ground home">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 80'%3E%3Cpath d='M52 12C28 12 12 28 12 40s16 28 40 28' fill='none' stroke='%230F2027' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M48 22C34 22 24 30 24 40s10 18 24 18' fill='none' stroke='%23D4AF37' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M68 12c24 0 40 16 40 28s-16 28-40 28' fill='none' stroke='%23D4AF37' stroke-width='10' stroke-linecap='round'/%3E%3Cpath d='M108 40H78q-6 0-6 6v12' fill='none' stroke='%230F2027' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M72 22c14 0 24 8 24 18' fill='none' stroke='%230F2027' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E" alt="" class="logo-img" width="56" height="37">
+        <span class="logo-text">
+          <strong>Common Ground</strong>
+          <span class="tagline">Judgement-free. Shared stories. Practical tools.</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="founders-story.html">Founder's Story</a></li>
+          <li><a href="toolkits.html">Coping Toolkits</a></li>
+          <li><a href="urgent-help.html">Urgent Help</a></li>
+          <li><a href="get-involved.html" aria-current="page">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Get Involved</h1>
+        <p class="page-lead">Help shape Common Ground. Share a story, stay in the loop, or join us as we grow into an official charity.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container involved-grid">
+        <div class="involved-card">
+          <h2>Share your story</h2>
+          <p>Anonymously share a coping strategy or lived experience. With your consent, it may be featured on the site or podcast — always with care and zero judgement.</p>
+          <form class="contact-form" id="story-form" action="#" method="post" novalidate>
+            <div class="form-group">
+              <label for="story-text">Your story or coping strategy</label>
+              <textarea id="story-text" name="story" rows="5" required placeholder="What helped you? What do you wish someone had told you?"></textarea>
+            </div>
+            <div class="form-group form-checkbox">
+              <input type="checkbox" id="story-anonymous" name="anonymous" checked>
+              <label for="story-anonymous">Keep this anonymous</label>
+            </div>
+            <div class="form-group form-checkbox">
+              <input type="checkbox" id="story-consent" name="consent" required>
+              <label for="story-consent">I am happy for this to be considered for the site or podcast</label>
+            </div>
+            <p class="form-disclaimer">Stories are handled with privacy and respect. This is not for crisis support — if you need urgent help, please use our <a href="urgent-help.html">Urgent Help</a> page.</p>
+            <button type="submit" class="btn btn-primary">Submit story</button>
+            <p class="form-status" id="story-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+        <div class="involved-card">
+          <h2>Newsletter</h2>
+          <p>Weekly coping tools, podcast updates, and gentle check-ins — no spam, no pressure.</p>
+          <form class="contact-form" id="newsletter-form" action="#" method="post" novalidate>
+            <div class="form-group">
+              <label for="newsletter-email">Email</label>
+              <input type="email" id="newsletter-email" name="email" autocomplete="email" required placeholder="you@example.com">
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <p class="form-status" id="newsletter-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section advisory-section">
+      <div class="container">
+        <div class="advisory-notice">
+          <h2>Community advisory notice</h2>
+          <p>We will soon be looking for <strong>community advisors</strong>, <strong>guest speakers</strong>, and <strong>volunteers</strong> to help shape Common Ground as we grow into an official charity.</p>
+          <p>If that sounds like you, subscribe to the newsletter above or check back here — opportunities will be listed as they open.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Common Ground — Mental Health Charity</strong>
+        <p>Established September 25th 2026</p>
+        <p class="footer-tagline">Judgement-free. Shared stories. Practical tools. Equal ground.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="founders-story.html">Founder's Story</a>
+        <a href="toolkits.html">Coping Toolkits</a>
+        <a href="urgent-help.html">Urgent Help</a>
+        <a href="get-involved.html">Get Involved</a>
+      </nav>
+      <nav class="footer-support" aria-label="Crisis support">
+        <a href="https://www.samaritans.org" target="_blank" rel="noopener noreferrer">Samaritans</a>
+        <a href="https://www.mind.org.uk" target="_blank" rel="noopener noreferrer">Mind</a>
+        <a href="https://www.nhs.uk/mental-health" target="_blank" rel="noopener noreferrer">NHS</a>
+      </nav>
+      <p class="footer-note">Common Ground is a peer-support resource and upcoming social enterprise, not a clinical or emergency service. In crisis, please visit our <a href="urgent-help.html">Urgent Help</a> page.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
